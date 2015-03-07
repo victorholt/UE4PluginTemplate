@@ -1,0 +1,21 @@
+{
+    "PluginFileVersion" : 1,
+
+    "FriendlyName" : "MyPlugin",
+    "Version" : 1,
+    "VersionName" : "1.0",
+    "CreatedBy" : "Victor Holt",
+    "CreatedByURL" : "http://www.everfluence.com",
+    "MinEngineVersion" : 1579795,
+    "Description" : "Simple template for new plugins in UE4.",
+    "CategoryPath" : "Rendering.Components",
+
+    "Modules" :
+    [
+        {
+            "Name" : "MyPlugin",
+            "Type" : "Runtime",
+            "BlacklistPlatforms" : [ "HTML5" ]
+        }
+    ]
+}
